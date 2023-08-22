@@ -3,5 +3,6 @@
 cmake3.6
 
 # 效果
-![Alt text](https://github.com/baoyu45585/blend/blob/main/a.mp4)
+[点击观看视频](https://github.com/baoyu45585/blend/blob/main/a.mp4)
+
 
