@@ -102,36 +102,9 @@ public class MyRender implements GLSurfaceView.Renderer {
             JNILib.genTextureId(i,path);
             JNILib.setTextureBitmap(bitmap1,0);
             JNILib.setTextureBitmap(bitmap2,1);}
-//        }
-//        for (int j=0;j<i;j++){
-//
-//        }
+
     }
 
-//    private void setTextureObjID() //设置纹理ID的方式
-//    {
-//        Bitmap bitmap = loadBitmap(context,R.drawable.wall);
-//
-//        glGenTextures(1,textureID,0);
-//        if (textureID[0] == 0) {
-//            Log.e(TAG, "Could not generate a new OpenGL texture object.");
-//            return ;
-//        }
-//
-//        glBindTexture(GL_TEXTURE_2D,textureID[0]);
-//
-//        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
-//        glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
-//        texImage2D(GL_TEXTURE_2D, 0, bitmap, 0);
-//
-//        glGenerateMipmap(GL_TEXTURE_2D);
-//        bitmap.recycle();
-//
-//        JNILib.setTextures(textureID);
-//
-//        // Unbind from the texture.
-//        glBindTexture(GL_TEXTURE_2D, 0);
-//    }
 
     private static Bitmap loadBitmap(Context context, int resID) {
         BitmapFactory.Options options = new BitmapFactory.Options();
